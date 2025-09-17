@@ -1,0 +1,49 @@
+
+This delivery company (our client) stands as India's foremost marketplace for intra-city logistics, spearheading innovation in the nation's $40 billion intra-city logistics sector. With a mission to enhance the livelihoods of over 150,000 driver-partners, our client ensures consistent earnings and fosters independence among its workforce. Currently, the company boasts a customer base exceeding 5 million.
+
+Collaborating with a diverse array of restaurants, the company facilitates the direct delivery of their goods to consumers. Leveraging a network of delivery partners sourced from various eateries, our client seeks to provide customers with accurate estimated delivery times based on factors such as their order, location, and available delivery partners.
+
+=========================================
+Associated tasks
+=========================================
+
+	- Regression: 
+		Predication of the delivery time estimation,
+==============================
+Data description
+==============================
+
+Each row in this file corresponds to one unique delivery. Each column corresponds to a feature as explained below
+
+market id: integer id for the market where the restaurant lies
+
+created at: the timestamp at which the order was placed
+actual delivery time: the timestamp when the order was delivered
+
+store_primary_category: category for the restaurant
+
+order protocol: integer code value for order protocol(how the order was placed le: through porter, call to restaurant, pre booked, third part etc)
+
+total items subtotal: final price of the order
+
+num_distinct items: the number of distinct items in the order
+
+actual delivery time: the timestamp when the order was delivered
+
+store_primary_category: category for the restaurant
+
+order protocol: integer code value for order protocol(how the order was placed le: through porter, call to restaurant, pre booked, third part etc)
+
+total items subtotal: final price of the order
+
+num_distinct items: the number of distinct items in the order
+
+min_item_price: price of the cheapest item in the order
+
+max_item_price: price of the costliest item in order
+
+total_onshift_partners: number of delivery partners on duty at the time order was placed
+
+total_busy_partners: number of delivery partners attending to other tasks
+
+total outstanding_orders: total number of orders to be fulfilled at the moment
