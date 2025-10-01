@@ -45,9 +45,7 @@
 # In[ ]:
 
 
-from google.colab import files
 
-uploaded = files.upload()
 
 
 # In[2]:
